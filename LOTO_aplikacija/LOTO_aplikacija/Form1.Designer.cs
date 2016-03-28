@@ -87,6 +87,8 @@
             this.txtUplaceniBroj1.Name = "txtUplaceniBroj1";
             this.txtUplaceniBroj1.Size = new System.Drawing.Size(40, 20);
             this.txtUplaceniBroj1.TabIndex = 0;
+            this.txtUplaceniBroj1.Text = "1";
+            this.txtUplaceniBroj1.TextChanged += new System.EventHandler(this.txtUplaceniBroj1_TextChanged);
             // 
             // txtUplaceniBroj2
             // 
@@ -94,6 +96,7 @@
             this.txtUplaceniBroj2.Name = "txtUplaceniBroj2";
             this.txtUplaceniBroj2.Size = new System.Drawing.Size(40, 20);
             this.txtUplaceniBroj2.TabIndex = 1;
+            this.txtUplaceniBroj2.Text = "2";
             this.txtUplaceniBroj2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // txtUplaceniBroj3
@@ -102,6 +105,7 @@
             this.txtUplaceniBroj3.Name = "txtUplaceniBroj3";
             this.txtUplaceniBroj3.Size = new System.Drawing.Size(40, 20);
             this.txtUplaceniBroj3.TabIndex = 2;
+            this.txtUplaceniBroj3.Text = "3";
             this.txtUplaceniBroj3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // txtUplaceniBroj4
@@ -110,6 +114,7 @@
             this.txtUplaceniBroj4.Name = "txtUplaceniBroj4";
             this.txtUplaceniBroj4.Size = new System.Drawing.Size(40, 20);
             this.txtUplaceniBroj4.TabIndex = 3;
+            this.txtUplaceniBroj4.Text = "4";
             // 
             // txtUplaceniBroj5
             // 
@@ -117,6 +122,7 @@
             this.txtUplaceniBroj5.Name = "txtUplaceniBroj5";
             this.txtUplaceniBroj5.Size = new System.Drawing.Size(40, 20);
             this.txtUplaceniBroj5.TabIndex = 4;
+            this.txtUplaceniBroj5.Text = "5";
             this.txtUplaceniBroj5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // txtUplaceniBroj6
@@ -125,6 +131,7 @@
             this.txtUplaceniBroj6.Name = "txtUplaceniBroj6";
             this.txtUplaceniBroj6.Size = new System.Drawing.Size(40, 20);
             this.txtUplaceniBroj6.TabIndex = 5;
+            this.txtUplaceniBroj6.Text = "6";
             this.txtUplaceniBroj6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // txtUplaceniBroj7
@@ -133,6 +140,7 @@
             this.txtUplaceniBroj7.Name = "txtUplaceniBroj7";
             this.txtUplaceniBroj7.Size = new System.Drawing.Size(40, 20);
             this.txtUplaceniBroj7.TabIndex = 6;
+            this.txtUplaceniBroj7.Text = "7";
             this.txtUplaceniBroj7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // groupBox1

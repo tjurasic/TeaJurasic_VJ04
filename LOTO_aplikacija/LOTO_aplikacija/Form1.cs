@@ -112,5 +112,10 @@ namespace LOTO_aplikacija
             int brojPogodaka = loto.IzracunajBrojPogodaka();
             lblBrojPogodaka.Text = brojPogodaka.ToString();
         }
+
+        private void txtUplaceniBroj1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
