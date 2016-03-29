@@ -9,7 +9,7 @@ namespace LOTO_aplikacija
     class Loto
     {
         public List<int> UplaceniBrojevi { get; set; }
-        public List<int> DobitniBrojevi { get;set }
+        public List<int> DobitniBrojevi { get; set; }
 
         public Loto(){
             UplaceniBrojevi=new List<int>();
@@ -41,7 +41,7 @@ namespace LOTO_aplikacija
         }
         public void GenerirajDobitnuKombinaciju() {
             DobitniBrojevi.Clear();
-            Random generatorBrojeva=new Random)();
+            Random generatorBrojeva=new Random();
             while (DobitniBrojevi.Count<7)
             {
                 int broj=generatorBrojeva.Next(1,39);
